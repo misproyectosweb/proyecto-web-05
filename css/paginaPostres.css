@@ -1,0 +1,198 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4/05/2023, 09:02:50 AM
+    Author     : pcgc7
+*/
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Open Sans', sans-serif; background-image: url('../imgPostres/fondoPostres_1.jpg'); background-size: cover; background-position: center;min-height: 100vh; }
+
+/****************************** HEADER *****************************************/
+
+header { background-image: linear-gradient(to right, #fff 0%, #a12312 100%); z-index: 30; }
+
+header .col-2 { padding-left: 0 !important; padding-right: 0 !important;}
+
+nav { flex-wrap: nowrap; justify-content: space-around; }
+
+nav ul li { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+
+nav ul li a { font-size: 1.25rem !important; }
+
+.mx-5 { margin-left: 1.5rem !important; margin-right: 1.5rem !important; } 
+
+.m-3 { margin: 1rem !important; }
+
+/****************************** SECCION PRINCIPAL ******************************/
+
+.colorFondo { background-color: rgba(0, 0, 0, 0.6); width: 100%; height: 100%; }
+
+/****************************** MEDIA QUERIES ******************************/
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+
+    /****************************** HEADER *****************************************/
+
+    header .col-2 { padding-left: 0 !important; padding-right: 0 !important;}
+
+    nav { flex-wrap: nowrap; justify-content: space-around; }
+    
+    nav ul li { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+
+    nav ul li a { font-size: 1.15rem !important; }
+
+    .mx-5 { margin-left: 1rem !important; margin-right: 1rem !important; } 
+
+    .m-3 { margin: 0.75rem !important; }
+
+    /****************************** SECCION PRINCIPAL ******************************/
+
+    h1 { font-size: 2.5rem; }
+
+    .py-5 { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+
+    .pb-3 { padding-bottom: 1rem !important; }
+
+    h6 { font-size: 0.85rem; }
+
+    p { font-size: 0.85rem; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    
+    /****************************** HEADER *****************************************/
+
+    header .col-2 { padding-left: 0 !important; padding-right: 0 !important; }    
+
+    nav { flex-wrap: nowrap; justify-content: space-around; }
+
+    nav ul li { padding-left: 0 !important; padding-right: 0 !important; }
+
+    nav ul li a { font-size: 1rem !important; }
+
+    nav ul li a.text-white { color: #fff!important; }
+
+    .mx-5 { margin-left: 0.85rem !important; margin-right: 0.85rem !important; }
+
+    .m-3 { margin: 0.5rem !important; }
+
+    /****************************** SECCION PRINCIPAL ******************************/
+
+    h1 { font-size: 2.25rem; }
+
+    .py-5 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+
+    .pb-3 { padding-bottom: 0.75rem !important; }
+
+    h6 { font-size: 0.75rem; }
+
+    p { font-size: 0.75rem; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    /****************************** HEADER *****************************************/
+
+    .col-2 { padding-left: 0; padding-right: 0; }    
+
+    .mx-5 { margin-left: 0 !important; margin-right: 0 !important; }
+
+    .m-3 { margin: 0.5rem !important; }
+
+    nav ul li { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+
+    nav ul li a { font-size: 1rem !important; }
+
+    nav ul li a.text-white { color: #fff!important; }
+
+    /****************************** SECCION PRINCIPAL ******************************/
+
+    h1 { font-size: 2rem; }
+
+    .py-5 { padding-top: 2rem !important; padding-bottom: 1.5rem !important; }
+
+    .pb-3 { padding-bottom: 0.5rem !important; }
+
+    h6 { font-size: 0.67rem; }
+
+    p { font-size: 0.65rem; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    /****************************** HEADER *****************************************/
+
+    header .col-2 { padding-left: 0 !important; padding-right: 0 !important; } 
+
+    .nav { flex-wrap: nowrap; border-top: 1px solid #000; }
+
+    nav ul { justify-content: space-around; padding-top: 0.5rem; margin-top: 0.5rem; }
+
+    nav ul li { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+
+    nav ul li a { font-size: 0.7rem !important; }
+
+    nav ul li a.text-white { color: black !important; }
+
+    .mx-5 { margin-left: 0 !important; margin-right: 0 !important; }
+
+    .m-3 { margin: 0 !important; }
+    
+    /****************************** SECCION PRINCIPAL ******************************/
+
+    h1 { font-size: 1.5rem; }
+
+    .py-5 { padding-top: 2rem !important; padding-bottom: 1rem !important; }
+
+    .pb-3 { padding-bottom: 0 !important; }
+
+    h6 { font-size: 0.65rem; }
+
+    p { font-size: 0.65rem; }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    /****************************** HEADER *****************************************/
+
+    header .col-2 { padding-left: 0 !important; padding-right: 0 !important; } 
+
+    .nav { flex-wrap: nowrap; border-top: 1px solid #000;}
+
+    nav ul {justify-content: space-around; padding-top: 0.5rem; margin-top: 0.5rem; }
+
+    nav ul li { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+
+    nav ul li a { font-size: 0.7rem !important; }
+
+    nav ul li a.text-white { color: black !important; }
+
+    .mx-5 { margin-left: 0 !important; margin-right: 0 !important; }
+
+    .m-3 { margin: 0 !important; }
+
+    /****************************** SECCION PRINCIPAL ******************************/
+    
+    h1 { font-size: 1.5rem; }
+
+    .py-5 { padding-top: 2rem !important; padding-bottom: 1rem !important; }
+
+    .pb-3 { padding-bottom: 0 !important; }
+
+    h6 { font-size: 0.6rem; }
+    
+    .ml-2 {
+        margin-left: 0 !important;
+    }
+    
+    .mr-2 {
+        margin-right: 0 !important;
+    }
+
+    p { font-size: 0.5rem; }    
+}
