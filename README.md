@@ -1,7 +1,7 @@
 # Proyecto Web 05
 Sitio web que muestra información variada de un restaurante
 
-Sitio web creado con:
+Este sitio web fue creado con:
 - **HTML:**	Permite crear la estructura del sitio web mediante etiquetas
 - **CSS:**	Para definir y crear la presentación del sitio web
 - **JavaScript:**	Añade características que permite agregar e implementar acciones interactivas al sitio web
