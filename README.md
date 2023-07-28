@@ -1,5 +1,5 @@
 # Proyecto Web 05
-Sitio web que muestra información variada de un restaurante
+Sitio web que muestra y describe información de los servicios de un restaurante
 
 Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
 
@@ -26,7 +26,7 @@ En relación con el menú de especialidades, cada vez que el usuario ingresa a c
 
 Para el formulario de contacto se programaron validaciones tanto del lado del cliente, implementando mensajes personalizados con clases integradas en Bootstrap, los cuales brindan acceso a las API de validación de formularios en JavaScript como validaciones del lado del servidor programadas con el lenguaje de programación PHP.
 
-Para enviar la información del usuario a través del formulario de contacto se utiliza una herramienta llamada **PHPMailer.** Esta es una biblioteca de código para enviar correos electrónicos de forma segura y sencilla a través de código PHP desde un servidor web. Además está basada en el componente active server ASPMail y permite de una forma sencilla tareas complejas como por ejemplo:
+Para enviar la información del usuario a través del formulario de contacto se utiliza una herramienta llamada **PHPMailer.** Esta es una biblioteca de código abierto para enviar correos electrónicos de forma segura y sencilla a través de código PHP desde un servidor web. Además está basada en el componente active server ASPMail y permite de una forma sencilla tareas complejas como por ejemplo:
 - Enviar mensajes de correo con ficheros adjuntos (attachments) 
 - Enviar mensajes de correo en formato HTML 
 - Enviar emails vía sendmail, PHP mail(), o con SMTP.
