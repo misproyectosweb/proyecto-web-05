@@ -1,7 +1,8 @@
 # Proyecto Web 05
 Sitio web que muestra información variada de un restaurante
 
-Este sitio web fue creado con:
+Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
+
 - **HTML:**	Permite crear la estructura del sitio web mediante etiquetas
 - **CSS:**	Para definir y crear la presentación del sitio web
 - **JavaScript:**	Añade características que permite agregar e implementar acciones interactivas al sitio web
@@ -23,14 +24,14 @@ El sitio web en su totalidad consta de tres secciones:
 
 En relación con el menú de especialidades, cada vez que el usuario ingresa a cada opción se encontrará con el detalle de los productos que el restaurante ofrece a sus clientes. Para efectos de este proyecto, se ha creado un diseño diferente con el propósito de demostrar las habilidades del programador
 
-Para el formulario de contacto se programaron validaciones tanto del lado del cliente, implementando mensajes personalizados con clases integradas en Bootstrap, los cuales brindan acceso a las API de validación de formularios en JavaScript. Adicionalmente, se codificaron validaciones del lado del servidor programado con PHP.
+Para el formulario de contacto se programaron validaciones tanto del lado del cliente, implementando mensajes personalizados con clases integradas en Bootstrap, los cuales brindan acceso a las API de validación de formularios en JavaScript como validaciones del lado del servidor programadas con el lenguaje de programación PHP.
 
 Para enviar la información del usuario a través del formulario de contacto se utiliza una herramienta llamada **PHPMailer.** Esta es una biblioteca de código para enviar correos electrónicos de forma segura y sencilla a través de código PHP desde un servidor web. Además está basada en el componente active server ASPMail y permite de una forma sencilla tareas complejas como por ejemplo:
 - Enviar mensajes de correo con ficheros adjuntos (attachments) 
 - Enviar mensajes de correo en formato HTML 
 - Enviar emails vía sendmail, PHP mail(), o con SMTP.
 
-Finalmente, se utiliza una librería llamada **SweetAlert2**  para mostrar al usuario mensajes personalizados que le van a indicar si los datos digitados por el cliente fueron enviados al buzón de correo del restaurante de  correcta o incorrecta.
+Finalmente, se utiliza una librería JavaScript llamada SweetAlert2 para mostrar al usuario mensajes personalizados que le van a indicar si los datos digitados por el cliente en el formulario fueron enviados al buzón de correo del restaurante de forma correcta o incorrecta.
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
