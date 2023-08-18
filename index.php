@@ -47,9 +47,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 navbar navbar-expand-lg navbar-light">
-                        <div class="col-2">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-2">
                             <a class="navbar-brand" href="#">
-                                <img src="imagenes/logoPizzeria.png" class="imgLogo img-fluid" alt="Logo de la empresa"/>
+                                <img src="imagenes/logoPizzeria.png" class="img-fluid" alt="Logo de la empresa"/>
                             </a>
                         </div>
 
@@ -110,18 +110,18 @@
 
             <!-- Menú de especialidades -->
             <div class="especialidades border-bottom border-danger bg-light" id="especialidades">
-                <div class="row justify-content-around pt-4" >
-                    <img src="imagenes/lineaDecorativa_1.png" class="img-fluid lineas" alt=""/>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 row justify-content-around pt-4" >
+                    <img src="imagenes/lineaDecorativa_1.png" class="img-fluid w-50" alt=""/>
                 </div>
-                <div class="row justify-content-around">
-                    <img src="imagenes/dbjPapas_4.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjHamburguesa_1.png" class="img-fluid dibujos" alt=""/>
-                    <h1 class="font-weight-bold text-danger mb-0 mt-2 ml-4">Nuestras especialidades</h1>
-                    <img src="imagenes/dbjPastas_2.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjPostre_3.png" class="img-fluid dibujos" alt=""/>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 row justify-content-around">
+<!--                    <img src="imagenes/dbjPapas_4.png" class="img-fluid dibujos" alt=""/>
+                    <img src="imagenes/dbjHamburguesa_1.png" class="img-fluid dibujos" alt=""/>-->
+                    <h1 class="font-weight-bold text-danger mb-0">Nuestras especialidades</h1>
+<!--                    <img src="imagenes/dbjPastas_2.png" class="img-fluid dibujos" alt=""/>
+                    <img src="imagenes/dbjPostre_3.png" class="img-fluid dibujos" alt=""/>-->
                 </div>
-                <div class="row justify-content-around pb-4">
-                    <img src="imagenes/lineaDecorativa_2.png" class="img-fluid lineas" alt=""/>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 row justify-content-around pb-4">
+                    <img src="imagenes/lineaDecorativa_2.png" class="img-fluid w-50" alt=""/>
                 </div>
                 <div class="container-fluid">
                     <div class="row">
@@ -136,7 +136,7 @@
                                     <a href="paginaAperitivos.php" class="btn btn-outline-danger font-weight-bold">Ir al menú</a>
                                 </div>
                             </div>
-                        <div class="card border-danger">
+                            <div class="card border-danger">
                                 <img src="imgPizzas/imgPizza.jpg" class="imgMenu card-img-top img-fluid mx-auto d-block rounded-lg" alt="foto de personal de la empresa">
                                 <div class="card-body">
                                     <h5 class="card-title">Pizzas</h5>
@@ -201,12 +201,12 @@
 
             <!-- Historia del restaurante -->
             <div class="historia border-bottom py-4 border-danger" id="historia">
-                <img src="imagenes/lineaDecorativa_3.png" class="img-fluid mx-auto d-block lineas" alt=""/>
+                <img src="imagenes/lineaDecorativa_3.png" class="img-fluid mx-auto d-block w-50" alt=""/>
                 <h1 class="font-weight-bold text-white text-center mb-0">Conozca nuestra historia</h1>
-                <img src="imagenes/lineaDecorativa_4.png" class="img-fluid mx-auto d-block pb-4 lineas" alt=""/>
+                <img src="imagenes/lineaDecorativa_4.png" class="img-fluid mx-auto d-block pb-4 w-50" alt=""/>
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-5">
+                    <div class="row">                                                
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                             <figure class="figure text-center">
                                 <img src="imagenes/fotoHistoria_1.jpg" class="imgHistoria figure-img img-fluid rounded img-thumbnail w-75" alt="imagen historia del restaurante">
                                 <figcaption class="figure-caption text-center text-white mb-5">A caption for the above image</figcaption>
@@ -216,7 +216,7 @@
                                 <figcaption class="figure-caption text-center text-white mb-5">A caption for the above image</figcaption>
                             </figure>
                         </div>
-                        <div class="col-7">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-7">
                             <h5>Lorem ipsum dolor sit amet</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor molestie mauris, ut pretium lectus ornare id. Vestibulum condimentum, ligula et lacinia pulvinar, urna tellus viverra justo, a auctor purus metus et orci. Aenean porta, lacus rhoncus tincidunt egestas, lectus lorem varius est, et rhoncus sapien ante sed massa. Donec tincidunt risus magna, non ultricies lorem sodales id. Suspendisse vel libero vel sapien ultricies ultricies. Suspendisse sed commodo dolor. Quisque et suscipit massa. Duis sed condimentum metus.</p>
                             <p>Nunc sit amet lacus urna. Vivamus eget eros quam. Curabitur aliquam augue in lacus lobortis, et tempus nunc semper. Vivamus eleifend feugiat ex finibus gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla augue quam, tincidunt a lectus vitae, blandit gravida magna. Donec et risus fermentum dui elementum dignissim. Aenean scelerisque auctor nisi in blandit. Aliquam non nunc vel felis vestibulum consectetur sit amet in tortor. Suspendisse posuere dui id dictum tincidunt. Suspendisse sodales orci a rhoncus rhoncus. Maecenas molestie venenatis lorem, sit amet faucibus elit consectetur at. Nullam vel tempor sem. Sed sit amet malesuada nibh. Ut dapibus convallis dictum. Quisque vitae lectus eros.</p>
@@ -231,15 +231,15 @@
             <!-- Formulario para comentarios y sugerencias -->
             <div class="comentarios border-bottom mt-5 pb-5 border-danger" id="comentarios">
                 <h1 class="font-weight-bold text-danger pb-4 mb-0 text-center">Comentarios y sugerencias</h1>
-                <h4 class="text-center pb-4">Coméntanos tu experiencia en nuestro restaurante</h4>
+                <h4 class="text-center pb-4 mb-0">Coméntanos tu experiencia en nuestro restaurante</h4>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-5">
                             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST" id="frmContacto" class="frmContacto needs-validation" novalidate>
 
                                 <!-- Nombre -->
-                                <div class="form-row">
-                                    <div class="col-10 mb-2">
+                                <div class="form-row justify-content-center">
+                                    <div class="col-sm-12 col-md-10 col-lg-10 col-xl-12 mb-2">
                                         <label for="nombre"><small>Nombre:</small></label>
                                         <div class="input-group">
                                             <div class="input-group-prepend"><span class="input-group-text" id="validatedInputGroupPrepend"><i class="bi bi-person-fill"></i></span></div>
@@ -252,9 +252,9 @@
                                 </div>
 
                                 <!-- Números telefónicos de la casa -->
-                                <div class="form-row">
+                                <div class="form-row justify-content-center">
                                     <!-- Casa de habitación -->
-                                    <div class="col-5 mb-2">
+                                    <div class="col-sm-6 col-md-5 col-lg-5 col-xl-6 mb-2">
                                         <label for="telcasa"><small>Teléfono casa:</small></label>
                                         <div class="input-group">
                                             <div class="input-group-prepend"><span class="input-group-text" id="validatedInputGroupPrepend"><i class="bi bi-telephone-fill"></i></span></div>
@@ -264,7 +264,7 @@
                                         </div>                                        
                                     </div>
                                     <!-- Celular -->
-                                    <div class="col-5 mb-2">
+                                    <div class="col-sm-6 col-md-5 col-lg-5 col-xl-6 mb-2">
                                         <label for="telcelular"><small>Teléfono celular:</small></label>
                                         <div class="input-group">
                                             <div class="input-group-prepend"><span class="input-group-text" id="validatedInputGroupPrepend"><i class="bi bi-phone-fill"></i></span></div>
@@ -276,8 +276,8 @@
                                 </div>
 
                                 <!-- Correo electrónico -->
-                                <div class="form-row">
-                                    <div class="col-10 mb-2">
+                                <div class="form-row justify-content-center">
+                                    <div class="col-sm-12 col-md-10 col-lg-10 col-xl-12 mb-2">
                                         <label for="correo"><small>Correo:</small></label>
                                         <div class="input-group">
                                             <div class="input-group-prepend"><span class="input-group-text" id="validatedInputGroupPrepend"><i class="bi bi-envelope-fill"></i></span></div>
@@ -289,8 +289,8 @@
                                 </div>
 
                                 <!-- Dirección de la casa de habitación -->
-                                <div class="form-row">
-                                    <div class="col-10 mb-2">
+                                <div class="form-row justify-content-center">
+                                    <div class="col-sm-12 col-md-10 col-lg-10 col-xl-12 mb-2">
                                         <label for="direccion"><small>Dirección casa:</small></label>
                                         <div class="input-group">
                                             <div class="input-group-prepend"><span class="input-group-text" id="validatedInputGroupPrepend"><i class="bi bi-geo-alt-fill"></i></span></div>
@@ -302,16 +302,18 @@
                                 </div>
 
                                 <!-- Comentario -->
-                                <div class="form-row">
-                                    <div class="col-10 mb-2">
+                                <div class="form-row justify-content-center">
+                                    <div class="col-sm-12 col-md-10 col-lg-10 col-xl-12 mb-2">
                                         <label for="mensaje"><small>Escribe tu comentario:</small></label>
                                         <textarea cols="30" rows="5" class="form-control" id="mensaje" name="mensaje" value="" required></textarea>
                                         <div class="valid-feedback"><small>¡OK. Es válido!</small></div>
                                         <div class="invalid-feedback"><small>Complete el campo</small></div>
                                     </div>                                    
                                 </div>
-
-                                <input type="submit" id="boton" class="btn btn-outline-success font-weight-bold mt-3" data-toggle="modal" data-target="#confirmacion">
+                                
+                                <div class="row justify-content-center px-3">
+                                    <input type="submit" id="boton" class="boton btn btn-outline-success btn-block col-md-10 col-xl-12 font-weight-bold mt-3" data-toggle="modal" data-target="#confirmacion">
+                                </div>
                                 
                                 <?php
                                     require 'validaciones.php';
@@ -321,7 +323,7 @@
                         </div>
                         
                         <!-- Carrusel de imagenes con opiniones de clientes -->
-                        <div class="col-6 mt-5 pt-2">
+                        <div class="carrusel col-sm-12 col-md-10 col-lg-10 col-xl-7 mt-5 pt-4">
                             <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
@@ -374,7 +376,7 @@
             <div class="contacto border-bottom pt-4 border-danger" id="contacto">
                 <div class="container-fluid d-flex justify-content-around">
                     <div class="row">
-                        <div class="col-6 d-flex flex-column mb-3">
+                        <div class="col-6 col-sm-6 d-flex flex-column mb-3">
                             <h6 class="text-white text-left font-weight-bold my-3">Siganos en redes sociales:</h6>
                             <div class="d-flex flex-row pb-2">
                                 <i class="bi bi-facebook text-white"></i>&nbsp;&nbsp;&nbsp;
@@ -393,7 +395,7 @@
                                 <a href="#" target="_blank" class="text-white">pizzeriaCR</a>
                             </div>
                         </div>
-                        <div class="col-6 d-flex flex-column mb-3">
+                        <div class="col-6 col-sm-6 d-flex flex-column mb-3">
                             <h6 class="text-white text-left font-weight-bold my-3">Información de contacto:</h6>
                             <div class="d-flex flex-row pb-2">
                                 <i class="bi bi-geo-alt-fill text-white"></i>&nbsp;&nbsp;&nbsp;
