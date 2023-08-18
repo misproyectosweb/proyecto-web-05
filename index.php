@@ -114,11 +114,7 @@
                     <img src="imagenes/lineaDecorativa_1.png" class="img-fluid w-50" alt=""/>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 row justify-content-around">
-<!--                    <img src="imagenes/dbjPapas_4.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjHamburguesa_1.png" class="img-fluid dibujos" alt=""/>-->
                     <h1 class="font-weight-bold text-danger mb-0">Nuestras especialidades</h1>
-<!--                    <img src="imagenes/dbjPastas_2.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjPostre_3.png" class="img-fluid dibujos" alt=""/>-->
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 row justify-content-around pb-4">
                     <img src="imagenes/lineaDecorativa_2.png" class="img-fluid w-50" alt=""/>
@@ -188,15 +184,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row justify-content-around my-4">
-                    <img src="imagenes/dbjEnsalada_2.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjPizza_3.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjPastas_3.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjEmparedado_1.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjBebida_4.png" class="img-fluid dibujos" alt=""/>
-                    <img src="imagenes/dbjPostre_4.png" class="img-fluid dibujos" alt=""/>
-                </div>
+                    <div class="row justify-content-around pb-3">
+                        <img src="imagenes/dbjEnsalada_2.png" class="img-fluid dibujos" alt=""/>
+                        <img src="imagenes/dbjPizza_3.png" class="img-fluid dibujos" alt=""/>
+                        <img src="imagenes/dbjPastas_3.png" class="img-fluid dibujos" alt=""/>
+                        <img src="imagenes/dbjEmparedado_1.png" class="img-fluid dibujos" alt=""/>
+                        <img src="imagenes/dbjBebida_4.png" class="img-fluid dibujos" alt=""/>
+                        <img src="imagenes/dbjPostre_4.png" class="img-fluid dibujos" alt=""/>
+                    </div>
+                </div>                
             </div>
 
             <!-- Historia del restaurante -->
