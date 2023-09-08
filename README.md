@@ -22,7 +22,7 @@ El sitio web en su totalidad consta de tres secciones:
    - La cuarta parte consta de un formulario donde el usuario puede realizar sus comentarios acerca de su visita al restaurante
 3. Un pie de página: que muestra la información de contacto del negocio
 
-En relación con el menú de especialidades, cada vez que el usuario ingresa a cada opción se encontrará con el detalle de los productos que el restaurante ofrece a sus clientes. Para efectos de este proyecto, se ha creado un diseño diferente con el propósito de demostrar las habilidades del programador
+En relación con el menú de especialidades, cada vez que el usuario ingresa a cada opción se encontrará con el detalle de los productos que el restaurante ofrece a sus clientes. Para efectos de este proyecto, se han creado diseños diferentes en cada página para no mostrar un patrón repetitivo
 
 Para el formulario de contacto se programaron validaciones tanto del lado del cliente, implementando mensajes personalizados con clases integradas en Bootstrap, los cuales brindan acceso a las API de validación de formularios en JavaScript como validaciones del lado del servidor programadas con el lenguaje de programación PHP.
 
