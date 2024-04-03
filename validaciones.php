@@ -1,5 +1,12 @@
 <?php
+
+    /* 
+     * To change this license header, choose License Headers in Project Properties.
+     * To change this template file, choose Tools | Templates
+     * and open the template in the editor.
+     */
     
+
     // Realizamos las validaciones para el formulario. Verificamos si existe algún elemento con el nombre 'submit'
     if(isset($_POST['nombre'])) {
         
