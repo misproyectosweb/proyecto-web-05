@@ -40,7 +40,7 @@ function email(){
         if('exito') {
             Swal.fire({
                 icon: 'success',
-                imageUrl: 'imagenes/logoPizzeria.png',        
+                imageUrl: 'imgInicio/logoPizza_2.png',        
                 imageAlt: 'logo de la pizzería',
                 imageWidth: 300,
                 imageHeight: 90,
@@ -51,7 +51,7 @@ function email(){
         else {
             Swal.fire({
                 icon: 'error',
-                imageUrl: 'imagenes/logoPizzeria.png',        
+                imageUrl: 'imgInicio/logoPizza_2.png',        
                 imageAlt: 'logo de la pizzería',
                 imageWidth: 300,
                 imageHeight: 90,
