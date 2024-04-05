@@ -14,13 +14,13 @@ Este sitio web fue creado y desarrollado usando la plataforma **NetBeans 12.0.**
 El archivo **index.php** es el que contiene la página de inicio o página principal del sitio web
 
 El sitio web en su totalidad consta de tres secciones: 
-1. Un encabezado: donde se muestra el logotipo de la organización y el menú principal
-2. Una sección principal: el cual consta de cuatro partes:
+- **Un encabezado:** donde se muestra el logotipo de la organización y el menú principal
+- **Una sección principal:** el cual consta de cuatro partes:
    - La primera parte consta de una presentación del negocio a través de imágenes
    - La segunda parte consta del menú de especialidades que ofrece el restaurante a sus clientes. Estos incluyen aperitivos, pizzas, pastas, hamburguesas, sándwiches, hotdogs, bebidas, postres, entre otros
    - La tercera parte consta de una sección donde el negocio cuenta la reseña histórica de su creación
    - La cuarta parte consta de un formulario donde el usuario puede realizar sus comentarios acerca de su visita al restaurante
-3. Un pie de página: que muestra la información de contacto del negocio
+- **Un pie de página:** que muestra la información de contacto del negocio
 
 En relación con el menú de especialidades, cada vez que el usuario ingresa a cada opción se encontrará con el detalle de los productos que el restaurante ofrece a sus clientes. Para efectos de este proyecto, se han creado diseños diferentes en cada página para no mostrar un patrón repetitivo
 
