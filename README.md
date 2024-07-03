@@ -35,59 +35,55 @@ Finalmente, se utiliza una librería JavaScript llamada **SweetAlert2** para mos
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
-![01  inicio_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/f3f3f14f-1085-427e-a8b0-3c3abc41c83e)
+![01  inicio_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/b5d08eac-155b-4861-a32b-40b25a2d73a9)
 **==========================================================================**
-![01  inicio_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/ff499f82-170d-4a4c-90b5-bf856e5a674a)
+![01  inicio_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/72b7bd6b-6c88-4fcf-b90b-4ff3d865c348)
 **==========================================================================**
-![01  inicio_3](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/d7350467-e995-4f98-ab83-af0e603c6c39)
+![01  inicio_3](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/e72cc75d-ff4a-4e67-8c82-2ba0a6ef0a9b)
 **==========================================================================**
-![01  inicio_4](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/4dc002de-1fb2-417d-b184-d9678525c09b)
+![01  inicio_4](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/605f3e2d-50d6-49c2-a1ad-8e65b7e84463)
 **==========================================================================**
-![01  inicio_5](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/d3c3f19c-b94f-40eb-ab2d-9e344befdb00)
+![01  inicio_5](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/bd59be9a-8f15-4998-b09d-98e0bfe7eac4)
 **==========================================================================**
-![01  inicio_6](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/caa7210b-70a1-4673-832f-4944b1336099)
+![01  inicio_6](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/29c56df9-50fc-4a16-8140-17aa8bbd15f2)
 **==========================================================================**
-![01  inicio_7](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/9a80198c-0326-4c06-a32d-723e59a2f0fa)
+![01  inicio_7](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/0b7ab795-3ee3-4680-b366-7a385b68a576)
 **==========================================================================**
-![01  inicio_8](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/9ae7db0f-f4af-4452-98ba-d00613286e0f)
+![01  inicio_08](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/0813ed6c-e44c-42ac-8e0a-3e0f08941019)
 **==========================================================================**
-![01  inicio_9](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/4474079d-19f2-4399-97b3-ffd292f9e064)
+![01  inicio_09](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/60e2fae4-af7c-4628-8d4b-aa2b8f686eb6)
 **==========================================================================**
-![01  inicio_10](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/4acb60e9-89ad-42b6-9a27-5e34ff440b7c)
+![02  aperitivos_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/3e1050e7-c8f3-4db3-8ad6-766cf34cc26a)
 **==========================================================================**
-![01  inicio_11](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/1c692399-fe98-4f6d-aa8e-5b69cc3acf8d)
+![02  aperitivos_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/125c9942-a2d6-451b-816b-cc78310e584d)
 **==========================================================================**
-![02  aperitivos_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/ac5d2505-6dbf-4a49-ba46-0af5e621c855)
+![03  pizzas_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/1dd62774-7e78-42fb-9f07-3db9b88a7b8e)
 **==========================================================================**
-![02  aperitivos_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/4dfedfd7-4aa1-4f81-9f64-3c253c7cbe08)
+![03  pizzas_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/ca94b9e3-974d-41c7-8e53-fce073dd5c1d)
 **==========================================================================**
-![03  pizzas_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/58b9ed02-dc2e-4c27-b786-6d4012088f9b)
+![04  pastas_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/b895cdbe-c0a1-408e-9d58-35f8e26add14)
 **==========================================================================**
-![03  pizzas_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/25bf4262-b03d-42e7-8385-650cdff99ff2)
+![04  pastas_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/2ee025b9-f5d2-478f-868a-a36b546159cb)
 **==========================================================================**
-![03  pizzas_3](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/53deff93-c028-4755-97c8-be31e5cbfbed)
+![05  hamburguesas_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/2d049034-a98c-447a-a2a7-8f6ae94c004c)
 **==========================================================================**
-![04  pastas_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/83870b31-7799-4144-8b86-80907543663c)
+![05  hamburguesas_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/c9d22df6-2b0b-4e0e-a39e-44ef42e149c5)
 **==========================================================================**
-![04  pastas_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/bfcc58dc-fce1-4612-9c41-e21291a5d25f)
+![05  hamburguesas_3](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/6b12711d-30f3-447b-b964-c5f8cf441c72)
 **==========================================================================**
-![05  hamburguesas_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/4df3980d-e7dc-4391-9cbc-227ee50c879a)
+![05  hamburguesas_4](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/75743a30-a263-4226-a648-9d033b808a58)
 **==========================================================================**
-![05  hamburguesas_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/3267b506-0187-4f9a-8781-c128680c43dc)
+![05  hamburguesas_5](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/70655e19-8183-47b4-b1ac-53a46fa36dff)
 **==========================================================================**
-![05  hamburguesas_3](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/0225cb91-66ff-49dc-98e6-5fe81b419fa1)
+![05  hamburguesas_6](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/6adb6d9d-0b6c-42c5-8ef6-8422aa319193)
 **==========================================================================**
-![05  hamburguesas_4](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/211387c8-5062-4cc5-becf-af3b5cac24ac)
+![06  bebidas_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/48049fe5-f3c8-4322-a4be-66221e4c3695)
 **==========================================================================**
-![05  hamburguesas_5](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/1fa7ab47-604a-4eac-8702-033a706bff80)
+![06  bebidas_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/7304541e-5065-4a94-8587-7e88328cb36f)
 **==========================================================================**
-![05  hamburguesas_6](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/67d7b798-d411-45d0-a787-5cbbfe7b3313)
+![07  postres_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/915659d8-7b9d-4119-970e-d5998bc8ed77)
 **==========================================================================**
-![06  bebidas_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/9e46a6d7-01a6-4c1e-a9a3-2d4d618dc7ab)
+![07  postres_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/06c1c43b-15d5-442c-b075-91d53b1edc20)
 **==========================================================================**
-![06  bebidas_2](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/fea6ef9b-789d-46d7-9a5d-bf403b47a77c)
-**==========================================================================**
-![07  postres_1](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/260cab84-e1a9-4db1-8c9e-79f8645f89ae)
-**==========================================================================**
-![07  postres_3](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/d7fd5ae4-f759-403e-af0d-8b0bfaf50b6a)
+![07  postres_3](https://github.com/misproyectosweb/proyecto-web-05/assets/98922137/cd2e8b99-d3f3-4a6f-a473-5b5320476525)
 **==========================================================================**
