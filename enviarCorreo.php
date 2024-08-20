@@ -61,12 +61,12 @@
             
             //Dirección de correo que determinar el destinatario
             $mail->addAddress('pruebasproyectosweb000@gmail.com', 'Pizzería Costa Rica');
-            
+                                                
             // CONTENIDO DEL MENSAJE
             // Establecer el formato de correo electrónico en HTML y el conjunto de caracteres
-            $mail->isHTML(true);    
-            $mail->Subject = 'Mensaje enviado desde nuestra página web';
-            $mail->Body    = $mensajeCorreo;
+            $mail->isHTML(true);             
+            $mail->Subject = 'Mensaje enviado desde nuestra página web';            
+            $mail->Body    = $mensajeCorreo;            
             $mail->CharSet = 'UTF-8';
 
             // Se envía el mensaje

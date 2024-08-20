@@ -26,41 +26,40 @@
     </head>        
     <body> 
         
-        <!-- Inicio sección del encabezado del sitio web -->
         <!-- Logo y menú principal -->
         <header class="sticky-top">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbar navbar-expand-lg navbar-light p-3">
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbar navbar-expand-lg navbar-light p-4">
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                             <a class="navbar-brand" href="index.php">
-                                <img src="imgInicio/logoPizza_2.png" class="imgLogo img-fluid w-100" alt="Logo de la empresa"/>
+                                <img src="imgInicio/logoPizza_2.png" class="imgLogo img-fluid" alt="Logo de la empresa"/>
                             </a>
                         </div>
 
-                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="btnMenu navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span><i class="btn bi bi-list text-white"></i></span>
                         </button>
 
-                        <nav class="collapse navbar-collapse px-0" id="navbarNav">
+                        <nav class="menu collapse navbar-collapse px-0" id="navbarNav">
                             <ul class="nav">
-                                <li class="nav-item mx-4 px-4 rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'green');" onmouseout="noResaltarOpcion('item_1', 'transparent');">
-                                    <a class="nav-link text-white" href="paginaAperitivos.php">Aperitivos</a>
+                                <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'green');" onmouseout="noResaltarOpcion('item_1', 'transparent');">
+                                    <a class="nav-link text-white" href="paginaAperitivos.php"><i class="fa-solid fa-bowl-rice mr-2"></i>Aperitivos</a>
                                 </li>
-                                <li class="nav-item mx-4 px-4 rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'green');" onmouseout="noResaltarOpcion('item_2', 'transparent');">
-                                    <a class="nav-link text-white" href="paginaPizzas.php">Pizzas</a>
+                                <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'green');" onmouseout="noResaltarOpcion('item_2', 'transparent');">
+                                    <a class="nav-link text-white" href="paginaPizzas.php"><i class="fa-solid fa-pizza-slice mr-2"></i>Pizzas</a>
                                 </li>
-                                <li class="nav-item mx-4 px-4 rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'green');" onmouseout="noResaltarOpcion('item_3', 'transparent');">
-                                    <a class="nav-link text-white" href="paginaPastas.php">Pastas</a>
+                                <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'green');" onmouseout="noResaltarOpcion('item_3', 'transparent');">
+                                    <a class="nav-link text-white" href="paginaPastas.php"><i class="fa-solid fa-bowl-rice mr-2"></i>Pastas</a>
                                 </li>
-                                <li class="nav-item mx-4 px-4 rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'green');" onmouseout="noResaltarOpcion('item_4', 'transparent');">
-                                    <a class="nav-link text-white" href="paginaHamburguesas.php">Hamburguesas</a>
+                                <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'green');" onmouseout="noResaltarOpcion('item_4', 'transparent');">
+                                    <a class="nav-link text-white" href="paginaHamburguesas.php"><i class="fa-solid fa-burger mr-2"></i>Hamburguesas</a>
                                 </li>
-                                <li class="nav-item mx-4 px-4 rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'green');" onmouseout="noResaltarOpcion('item_5', 'transparent');">
-                                    <a class="nav-link text-white" href="paginaPostres.php">Postres</a>
+                                <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'green');" onmouseout="noResaltarOpcion('item_5', 'transparent');">
+                                    <a class="nav-link text-white" href="paginaPostres.php"><i class="fa-solid fa-ice-cream mr-2"></i>Postres</a>
                                 </li>                                
-                                <li class="nav-item mx-4 px-4 rounded-pill" id="item_6" onmouseover="ResaltarOpcion('item_6', 'green');" onmouseout="noResaltarOpcion('item_6', 'transparent');">
-                                    <a class="nav-link text-white" href="index.php">Salir</a>
+                                <li class="nav-item rounded-pill" id="item_6" onmouseover="ResaltarOpcion('item_6', 'green');" onmouseout="noResaltarOpcion('item_6', 'transparent');">
+                                    <a class="nav-link text-white" href="index.php"><i class="fa-solid fa-door-open mr-2"></i>Salir</a>
                                 </li>
                             </ul>
                         </nav>
@@ -72,16 +71,22 @@
 
         <!-- Inicio sección principal de la página -->        
         <main>
+            <!-- Inicio sección principal de la página -->        
+        <main>
             <div id="menuBebidas" class="menuBebidas colorFondo">
                 <div class="container-fluid">
                     <div class="row justify-content-center">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                            <h1 class="mb-0 pt-3 display-4 text-white text-uppercase font-weight-bold">menú de bebidas</h1>                            
+                            <h1 class="mb-0 pt-4 display-4 text-white text-uppercase font-weight-bold">menú de bebidas</h1>                            
                             <p class="mb-0 pt-3 pb-5 text-white">Consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sitamet<br>metus pellentesque vitae. Ut auctor sapien sed urna rhoncus, vel semper tortor pharetra</p>
                         </div>                            
                     </div>
-
-                    <div class="row text-white justify-content-start align-items-center py-4">
+                    
+                    <div class="txtBebidas text-uppercase text-white display-4 rounded-lg pl-2" style="background: rgba(163, 163, 163, 0.8);">
+                        cervezas
+                    </div>
+                    
+                    <div class="row text-white align-items-center py-4">                        
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
                             <img src="imgBebidas/bebidas_1.png" class="img-fluid mx-auto d-block w-100" alt="imagen cerveza"/>
                         </div>
@@ -93,11 +98,11 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>
                         <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                             <p class="mb-1">Lorem ipsum dolor</p>
@@ -107,19 +112,19 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>
                     </div>
 
-                    <div class="row justify-content-center my-3">
-                        <div class="" style="border: 0.0625em dashed #fff; width: 90%"></div>
+                    <div class="txtBebidas text-uppercase text-white display-4 rounded-lg pl-2" style="background: rgba(163, 163, 163, 0.8);">
+                        gaseosas
                     </div>
 
-                    <div class="row text-white justify-content-start align-items-center py-4">
+                    <div class="row text-white align-items-center py-4">
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
                             <img src="imgBebidas/bebidas_2.png" class="img-fluid mx-auto d-block w-100" alt="imagen refresco gaseoso"/>
                         </div>
@@ -131,11 +136,11 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>
                         <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                             <p class="mb-1">Lorem ipsum dolor</p>
@@ -145,19 +150,19 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>
                     </div>
 
-                    <div class="row justify-content-center my-3">
-                        <div class="" style="border: 0.0625em dashed #fff; width: 90%"></div>
+                    <div class="txtBebidas text-uppercase text-white display-4 rounded-lg pl-2" style="background: rgba(163, 163, 163, 0.8);">
+                        batidos
                     </div>
 
-                    <div class="row text-white justify-content-start align-items-center py-4">
+                    <div class="row text-white align-items-center py-4">
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
                             <img src="imgBebidas/bebidas_3.png" class="img-fluid mx-auto d-block w-100" alt="imagen de batidos de frutas"/>
                         </div>
@@ -169,11 +174,11 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>
                         <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                             <p class="mb-1">Lorem ipsum dolor</p>
@@ -183,19 +188,19 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>
                     </div>
 
-                    <div class="row justify-content-center my-3">
-                        <div class="" style="border: 0.0625em dashed #fff; width: 90%"></div>
+                    <div class="txtBebidas text-uppercase text-white display-4 rounded-lg pl-2" style="background: rgba(163, 163, 163, 0.8);">
+                        cocteles
                     </div>
 
-                    <div class="row text-white justify-content-start align-items-center py-4">
+                    <div class="row text-white align-items-center py-4">                        
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
                             <img src="imgBebidas/bebidas_4.png" class="img-fluid mx-auto d-block w-100" alt="imagen cocteles"/>
                         </div>
@@ -207,11 +212,11 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>
                         <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                             <p class="mb-1">Lorem ipsum dolor</p>
@@ -221,19 +226,19 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>
                     </div>
 
-                    <div class="row justify-content-center my-3">
-                        <div class="" style="border: 0.0625em dashed #fff; width: 90%"></div>
+                    <div class="txtBebidas text-uppercase text-white display-4 rounded-lg pl-2" style="background: rgba(163, 163, 163, 0.8);">
+                        bebidas calientes
                     </div>
 
-                    <div class="row text-white justify-content-start align-items-center py-4">
+                    <div class="row text-white align-items-center py-4">
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
                             <img src="imgBebidas/bebidas_5.png" class="img-fluid w-75 mx-auto d-block w-100" alt="imagen taza de café"/>
                         </div>
@@ -245,11 +250,11 @@
                             <p class="mb-1">Lorem ipsum dolor</p>
                         </div>
                         <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
-                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00,000.00</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
+                            <p class="mb-1"><i class="fa-solid fa-cedi-sign mr-2"></i>00.000</p>
                         </div>                        
                     </div>
                 </div>
