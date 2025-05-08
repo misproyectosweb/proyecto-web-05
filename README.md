@@ -1,4 +1,5 @@
-# Proyecto Web 05
+# Proyecto Web 05: sitio web de un restaurante y pizería
+
 Sitio web que muestra y describe información de los servicios de un restaurante
 
 Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
