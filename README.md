@@ -1,4 +1,4 @@
-# Proyecto Web 05: sitio web de un restaurante y pizería
+# Proyecto Web 05: sitio web de un restaurante y pizzería
 
 Sitio web que muestra y describe información de los servicios de un restaurante
 
@@ -9,6 +9,7 @@ Sitio web creado con las siguientes herramientas a nivel de front-end y back-end
 - **JavaScript:**	Añade características que permite agregar e implementar acciones interactivas al sitio web
 - **Bootstrap:**	Herramienta utilizada para complementar las hojas de estilo CSS y personalizar la apariencia del sitio web
 - **PHP:**	Favorece la conexión entre los servidores y la interfaz de usuario
+- **SweetAlert2:** Para mostrar al usuario mensajes de aviso, advertencia o de error personalizados
 
 Este sitio web fue creado y desarrollado usando la plataforma **NetBeans 12.0.** Además está adaptado para ejecutarse en dispositivos móviles, como teléfonos, tablets, portátiles y computadoras de escritorio.
 
